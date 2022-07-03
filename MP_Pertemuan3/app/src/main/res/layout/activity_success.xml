@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".Success">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:title=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Toolbar>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="#092763"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="6dp"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/namaUserTextView"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="Di Beranda Saya"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"></RelativeLayout>
+
+        <Button
+            android:id="@+id/logout"
+            android:textStyle="bold"
+            android:backgroundTint="#E164B3"
+            android:textAllCaps="false"
+            android:text="Logout"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
